@@ -4,6 +4,8 @@ The following URL will help you to do this:
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
 var Length = document.getElementById('txtLength');
+var Width = document.getElementById('txtWidth');
+var Height = document.getElementById('txtHeight');
 
 
 
@@ -12,16 +14,9 @@ Also store the tdCost id element as a variable.
 The following link will help you to do this:
 https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 */
-function my Function() {
-		document.getElementById("demo").innerHTML = "Hello World";
-}
+var Cost = document.getElementById('tdCost');
 
-<script>
-function myFunction() {
-	var x = document.getElementById("demo");
-	x.style.color = "red";
-}
-</script>
+
 
 /*
 select the "Calculate Cost" and "Reset" buttons by
@@ -33,15 +28,8 @@ The links below will help you to do this:
 https://www.w3schools.com/js/js_htmldom_document.asp
 https://www.w3schools.com/jsref/event_onclick.asp
 */
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
+document.getElementById('btnReset').onclick = resetInputs;
+document.getElementById('btnCalcCosts').onclick = calcCosts;
 
 
 /*
@@ -51,13 +39,6 @@ Get the value of each variable you created at the beginning
 and store each value as a new variable.
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 
- 
-
-
-
-
-
-
 Test whether the user has entered a number in
 the text boxes and return an alert if non-numbers are entered. If
 numbers have been entered into the text boxes, calculate the surface area
@@ -65,14 +46,10 @@ and return the result. You can use the following links to help you with this.
 https://www.w3schools.com/js/js_functions.asp
 https://www.w3schools.com/jsref/jsref_isNaN.asp
 */
-<p id="surface area"></p>
-
-<script>
-  function myFunction(p1, p2) {
-    return p1 * p2; 
+function surfaceArea(){
+	var length = new Number(lengthObj.value);
+                var girth = new Number(girthObj.value);
 }
-document.getElementById("surface area").innerHTML = myFunction(p1 * p2);
-</script>
 
 
 /*
@@ -80,18 +57,13 @@ Create a function that calculates the length of the edges
 and returns the result.
 You can use the following link to help you with this.
 https://www.w3schools.com/js/js_functions.asp
-/*
+*/
 
-<p id="length of edges"></p>
-
-<script>
-function myFunctions(p1, p2) {
-  return p1 * p2;
+function edges(){
+	
 }
-document.getElementById("surface area").innerHTML = myFunction(0.10 * p2);
 
-
-
+/*
 At the beginning of your function get the value of each variable you
 created at the beginning of your program and store each value as a new variable.
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
@@ -112,15 +84,17 @@ Use the .toFixed() method to round the result to two decimal places.
 You can use the URL below to help you do this:
 https://www.w3schools.com/jsref/jsref_tofixed.asp
 */
+function calcCosts() {
 
+}
 
 
 /*
 Create a function named resetInputs to reset the inputs (Length, Width, Height).
 Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_reset
-
-Also reset the output (tdCost). Use this link to help you do this
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
 
+function resetInput() {
+
+}
 
