@@ -47,8 +47,10 @@ https://www.w3schools.com/js/js_functions.asp
 https://www.w3schools.com/jsref/jsref_isNaN.asp
 */
 function surfaceArea(){
-	var length = new Number(lengthObj.value);
-                var girth = new Number(girthObj.value);
+	var length = new Number(Length.value);
+	var width = new Number(Width.value);
+	var height = new Number(Height.value);
+                
 }
 
 
@@ -60,6 +62,7 @@ https://www.w3schools.com/js/js_functions.asp
 */
 
 function edges(){
+	var edges= new Number(Edges.length);
 	
 }
 
@@ -69,6 +72,12 @@ created at the beginning of your program and store each value as a new variable.
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
 
+function value(){
+	var length = new Number(Length.value);
+	var width = new Number(Width.value);
+	var height = new Number(Height.value);
+
+ 
 
 
 /*
@@ -85,7 +94,16 @@ You can use the URL below to help you do this:
 https://www.w3schools.com/jsref/jsref_tofixed.asp
 */
 function calcCosts() {
-
+	var costGlue = new Number(CostGlue.value);
+	var labour = new Number(Labour.value);
+	var sub-total = new Number(sub-total.value);
+	var tax = new Number(tax.value);
+	var total-cost= new Number(total-cost.value);
+	
+function myFunction() {
+  var num = value;
+  var n = num.toFixed(2);
+  
 }
 
 
@@ -95,6 +113,9 @@ Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form
 */
 
 function resetInput() {
+	var Length = new Number(Length.reset);
+	var Width = new Number(Width.reset);
+	var Height = new Number(Height.reset);
 
 }
 
